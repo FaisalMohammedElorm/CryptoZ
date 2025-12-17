@@ -180,6 +180,8 @@ main {
   top: 450px;
   /* padding: 20px; */
   left: 85px;
+  display: flex;
+  align-items: center;
 }
 .create-portfolio {
   height: 594px;
@@ -203,4 +205,34 @@ main {
   font-size: 16px;
   color: #626262;
   font-weight: 400;
+}
+.adjacent-containers {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.yellow-container {
+  height: 280px;
+  width: 688px;
+  background-color: #F3DE95;
+  align-items: center;
+  border-radius: 20px;
+  /* justify-content: space-between; */
+  padding: 20px;
+}
+.yellow-text-container {
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+  left: 90px;
+}
+.yellow-text-container h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #050E2C;
+}
+.yellow-text-container p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #626262;
 }
