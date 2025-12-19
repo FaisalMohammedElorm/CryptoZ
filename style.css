@@ -135,7 +135,7 @@ main {
 .trusted-section {
   /* padding: 85px; */
   position: relative;
-  top: 200px;
+  margin-top: 200px;
   /* left: 200px; */
   display: flex;
   flex-direction: row;
@@ -283,4 +283,25 @@ main {
   flex-direction: row;
   align-items: center;
   margin-left: 5rem;
+  gap: 2rem;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+}
+.card-components {
+  height: 414px;
+  width: 383px;
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 20px;
+}
+.card-components h3 {
+  font-size: 24px;
+}
+.card-components p {
+  color: #626262;
+  font-size: 16px;
+}
+.super-div {
+  background-color: #D0DBFF;
 }
