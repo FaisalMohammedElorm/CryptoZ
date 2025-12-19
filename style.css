@@ -305,3 +305,18 @@ main {
 .super-div {
   background-color: #D0DBFF;
 }
+.testimonials {
+  margin-top: 10rem;
+  padding: 80px 6%;
+  background: #f9f9f9;
+}
+.testimonials h1 {
+  font-size: 48px;
+  text-align: center;
+}
+.test-card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
