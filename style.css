@@ -190,7 +190,7 @@ main {
 ========================= */
 .super-div {
   background-color: #D0DBFF;
-  padding: 100px 6%;
+  padding: 80px 6%;
 }
 
 /* =========================
@@ -219,13 +219,20 @@ main {
   gap: 20px;
 }
 
-.yellow-container,
-.pink-container {
+.yellow-container {
   max-width: 680px;
   width: 100%;
   padding: 30px;
   border-radius: 20px;
   background-color: #F3DE95;
+}
+
+.pink-container {
+  max-width: 680px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #F395D9;
 }
 
 /* =========================
