@@ -182,9 +182,11 @@ main {
   left: 85px;
   display: flex;
   align-items: center;
+  gap: 2rem;
+  /* background-color: #D0DBFF; */
 }
 .create-portfolio {
-  height: 594px;
+  height: 660px;
   width: 492px;
   background-color: #091951;
   display: flex;
@@ -209,7 +211,7 @@ main {
 .adjacent-containers {
   display: flex;
   flex-direction: column;
-  gap: 90px;
+  gap: 15px;
 }
 .yellow-container {
   height: 280px;
@@ -235,4 +237,44 @@ main {
   font-size: 15px;
   font-weight: 400;
   color: #626262;
+}
+.pink-container {
+  height: 280px;
+  width: 688px;
+  background-color: #F395D9;
+  /* align-items: center; */
+  border-radius: 20px;
+  padding: 20px;
+}
+.pink-text-container {
+  text-align: center;
+  position: relative;
+  bottom: 300px;
+  left: 90px;
+}
+.pink-text-container h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.pink-text-container p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+}
+.started-cards-container {
+  position: relative;
+  top: 40rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.started-cards-container h1 {
+  color: #050E2C;
+  font-size: 48px;
+}
+.started-cards-container p {
+  color: #050E2C;
+  opacity: 75%;
+  font-size: 20px;
 }
