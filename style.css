@@ -264,7 +264,7 @@ main {
 }
 .started-cards-container {
   position: relative;
-  top: 40rem;
+  margin-top: 40rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -277,4 +277,10 @@ main {
   color: #050E2C;
   opacity: 75%;
   font-size: 20px;
+}
+.started-cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5rem;
 }
