@@ -216,17 +216,11 @@ main {
   margin: 20px 0;
 }
 
-/* =========================
-   SUPER SECTION
-========================= */
 .super-div {
   background-color: #D0DBFF;
   padding: 80px 6%;
 }
 
-/* =========================
-   GET STARTED CARDS
-========================= */
 .get-started-container {
   display: flex;
   gap: 2rem;
@@ -266,9 +260,6 @@ main {
   background-color: #F395D9;
 }
 
-/* =========================
-   STARTED STEPS
-========================= */
 .started-cards-container {
   margin-top: 100px;
   text-align: center;
@@ -287,9 +278,6 @@ main {
   border-radius: 20px;
 }
 
-/* =========================
-   TESTIMONIALS
-========================= */
 .testimonials {
   padding: 80px 6%;
   background: #f9f9f9;
@@ -327,9 +315,6 @@ main {
   border-radius: 50%;
 }
 
-/* =========================
-   FOOTER
-========================= */
 .first-step {
   padding: 40px 6%;
   text-align: center;
