@@ -34,18 +34,36 @@
     </div>
     <div class="hero-2">
       <h2>Currency Converter</h2>
-      <p>Amount</p>
       <div class="input-fields">
         <div class="amount">
-          <img src="assets/Frame 8766.png" alt="">
-          <input type="text">
+          <label for="amountInput">Amount</label>
+          <input id="amountInput" type="number" min="0" step="any" value="1">
         </div>
         <div class="conversion">
-          <img src="assets/Frame 8769.png" alt="">
-          <input type="text">
+          <label for="fromCurrency">From</label>
+          <select id="fromCurrency">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="BTC">BTC</option>
+            <option value="ETH">ETH</option>
+          </select>
+        </div>
+        <div class="conversion">
+          <label for="toCurrency">To</label>
+          <select id="toCurrency">
+            <option value="BTC">BTC</option>
+            <option value="ETH">ETH</option>
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+          </select>
+        </div>
+        <div class="result">
+          <label>Result</label>
+          <input id="result" type="text" readonly>
         </div>
         <div class="date">
-          <input type="text">
+          <label>Rates Date</label>
+          <input id="rateDate" type="text" readonly>
         </div>
       </div>
     </div>
@@ -255,6 +273,7 @@
       </div>
     </div>
   </footer>
+  <script src="currency.js"></script>
 </body>
 </html>
         
